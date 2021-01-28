@@ -10,4 +10,3 @@ steps:
       cd /rockstar/satriani
       npm install
       alias rockstar="node /rockstar/satriani/rockstar"
-    name: Hire a rock god to play for you
