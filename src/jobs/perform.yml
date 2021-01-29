@@ -10,6 +10,7 @@ parameters:
     type: string
     description: "Which Rockstar program you wish to sing?"
 steps:
+  - checkout
   - get-the-band-back-together
   - play:
       song: << parameters.song >>
