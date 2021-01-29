@@ -5,6 +5,7 @@ description: >
 
 steps:
   - run:
+      name: "Install rockstar and get it ready for the gig"
       command: |
         git clone https://github.com/RockstarLang/rockstar ~/rockstar
         cd ~/rockstar/satriani
