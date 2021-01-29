@@ -1,0 +1,11 @@
+description: >
+  This plays the song.
+# What will this command do?
+# Descriptions should be short, simple, and clear.
+parameters:
+  song:
+    type: string
+
+steps:
+  - run:
+      command: rockstar << parameters.song >>
