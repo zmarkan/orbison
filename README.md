@@ -1,4 +1,4 @@
-# Orb Project Template
+# Orbison - a Rockstar Language orb
 
 [![CircleCI Build Status](https://circleci.com/gh/zmarkan/orbison.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/zmarkan/orbison) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/zmarkan/orbison)](https://circleci.com/orbs/registry/orb/zmarkan/orbison) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/zmarkan/orbison/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 

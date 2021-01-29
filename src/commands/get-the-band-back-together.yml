@@ -1,0 +1,17 @@
+description: >
+  This command get the band together for us to play Rockstar commands (installs the Satriani node package and exposes it as rockstar command line program)
+# What will this command do?
+# Descriptions should be short, simple, and clear.
+
+steps:
+  - run:
+      name: "Install rockstar and get it ready for the gig"
+      command: |
+        git clone https://github.com/RockstarLang/rockstar ~/rockstar
+        cd ~/rockstar/satriani
+        npm install
+        mkdir ~/bin
+        touch ~/bin/rockstar
+        echo -e '#!/bin/bash \nnode ~/rockstar/satriani/rockstar $1' >> ~/bin/rockstar
+        chmod +x ~/bin/rockstar
+        source ~/.bashrc

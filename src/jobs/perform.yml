@@ -1,0 +1,16 @@
+description: >
+  Sing the Rockstar program specified in parameters
+# What will this job do?
+# Descriptions should be short, simple, and clear.
+
+executor: default
+
+parameters:
+  song:
+    type: string
+    description: "Which Rockstar program you wish to sing?"
+steps:
+  - checkout
+  - get-the-band-back-together
+  - play:
+      song: << parameters.song >>
