@@ -13,5 +13,3 @@ steps:
   - get-the-band-back-together
   - play:
       song: << parameters.song >>
-      
-
